@@ -1,0 +1,63 @@
+SystemName      atoms
+SystemLabel     atoms
+
+DM.UseSaveDM    True
+ElectronicTemperature   0.025 eV
+MaxSCFIterations        500
+OccupationFunction      FD
+SCF.Mixer.Weight        0.05
+Slab.DipoleCorrection   False
+WriteForces     True
+SCFMustConverge True
+
+Spin    non-polarized
+XC.functional   GGA
+XC.authors      PBE
+
+MeshCutoff      5442.277204873449       eV
+PAO.EnergyShift 0.1     eV
+
+NumberOfSpecies 3
+NumberOfAtoms   5
+%block ChemicalSpecieslabel
+    1 38 Sr
+    2 22 Ti
+    3 8 O
+%endblock ChemicalSpecieslabel
+
+
+%block PAO.BasisSizes
+
+    Sr SZ
+
+    Ti SZ
+
+    O SZ
+
+%endblock PAO.BasisSizes
+
+LatticeConstant 1.0 Ang
+%block LatticeVectors
+    3.9825124552107813 1.7589836473214793e-18 -2.6998631024728348e-20
+    1.252528301466694e-17 3.9825124552107813 1.4469011751940574e-20
+    -2.4385983881074286e-18 -1.333606884549684e-19 3.9825124552107813
+%endblock LatticeVectors
+AtomicCoordinatesFormat Ang
+%block AtomicCoordinatesAndAtomicSpecies
+    1.9912562280670059 1.9912562260888558 1.991256228892726 1
+    -7.447364714955396e-09 8.066589449571417e-10 -6.032433154483067e-09 2
+    1.991256232001867 6.798571760942172e-10 6.46667199089989e-10 3
+    2.73296925910101e-10 1.9912562275973789 9.807633620044275e-11 3
+    3.51159130329907e-09 1.3423307292443738e-09 1.9912562311012223 3
+%endblock AtomicCoordinatesAndAtomicSpecies
+%block DM.InitSpin
+%endblock DM.InitSpin
+
+DM.UseSaveDM    True
+
+#KPoint grid
+%block kgrid_Monkhorst_Pack
+     8       0       0  0.0
+     0       8       0  0.0
+     0       0       8  0.0
+%endblock kgrid_Monkhorst_Pack
