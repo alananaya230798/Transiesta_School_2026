@@ -1,3 +1,12 @@
 # Large DFT Hamiltonian directories
 /Transiesta_School_2026/Orbital_Prunning/NPG_DZP/
 /Transiesta_School_2026/Orbital_Prunning/STO-1uc_SZ_minimal/
+
+# Original DFT Hamiltonian folders
+/Orbital_Prunning/NPG_DZP/
+/Orbital_Prunning/STO-1uc_SZ_minimal/
+
+# Jupyter temporary files
+.ipynb_checkpoints/
+
+/RealSpaceSelfEnergy/CNT/grid.cube
