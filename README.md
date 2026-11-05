@@ -14,8 +14,8 @@ STO: Systems such as SrTiO
 2.Reals Space Self Energies with sisl: a beginner's tutoria
 
 This tutorial introduces the basic ingredients of quantum transport calculations with sisl using real space (surrounding) self energies RSSE. The tutorial is divided into four parts:
-a. Real-space self-energies (RSSE) for graphene. We build a simple graphene tight-binding model and use a real-space self-energy to embed a finite graphene region in an otherwise infinite graphene sheet. We then calculate the DOS and LDOS from the retarded Green function.
-b. Carbon vacancy in graphene. We employ the real space self energy to study the localize state arising from a carbon vacancy in graphene.
-c. STM wire injecting into graphene. We attach an explicit Au chain to the graphene device and calculate transmission and injected bond currents.
-d. Vertical graphene–CNT–graphene transport. We construct a carbon nanotube (CNT) connected between two graphene sheets, reuse the graphene RSSEs as electrodes, and calculate transmission, DOS, and spatially resolved LDOS.
+2.1 Real-space self-energies (RSSE) for graphene. We build a simple graphene tight-binding model and use a real-space self-energy to embed a finite graphene region in an otherwise infinite graphene sheet. We then calculate the DOS and LDOS from the retarded Green function.
+2.2 Carbon vacancy in graphene. We employ the real space self energy to study the localize state arising from a carbon vacancy in graphene.
+2.3 STM wire injecting into graphene. We attach an explicit Au chain to the graphene device and calculate transmission and injected bond currents.
+2.4 Vertical graphene–CNT–graphene transport. We construct a carbon nanotube (CNT) connected between two graphene sheets, reuse the graphene RSSEs as electrodes, and calculate transmission, DOS, and spatially resolved LDOS.
 
