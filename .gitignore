@@ -10,3 +10,7 @@
 .ipynb_checkpoints/
 
 /RealSpaceSelfEnergy/CNT/grid.cube
+RealSpaceSelfEnergies-withResults.ipynb
+Orbital_Pruning-withResults.ipynb
+Orbital_Pruning/Orbital_Pruning-withResults.ipynb
+RealSpaceSelfEnergy/RealSpaceSelfEnergies-withResults.ipynb
